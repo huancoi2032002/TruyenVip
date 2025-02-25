@@ -1,9 +1,14 @@
 import React from 'react';
-import Header from './component/header';
+import LayoutMain from '../../Layout/LayoutMain/LayoutMain';
+
 
 function Home() {
     return (
-        <Header></Header>
+        <LayoutMain>
+            <div className=''>
+                hahahah
+            </div>
+        </LayoutMain>
     )
 }
 

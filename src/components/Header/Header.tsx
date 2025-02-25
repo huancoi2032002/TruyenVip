@@ -1,12 +1,12 @@
 import React from "react";
-import Logo from "../../../assets/image/logo.jpg";
+
 
 function Header() {
     return (
         <div className="header h-[80px] bg-customBlue">
             <div className="container">
                 <div className="navbar-logo">
-                    <img src={Logo} alt="TruyenVip"/>
+                    Logo
                 </div>
                 <div className="navbar-search">
                     <div className="input-seach">
