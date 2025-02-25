@@ -1,12 +1,10 @@
-
+import Home from "./View/Home/Home"
 
 function App() {
 
   return (
     <>
-     <div className="bg-black">
-
-     </div>
+     <Home></Home>
     </>
   )
 }
