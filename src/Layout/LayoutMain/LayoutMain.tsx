@@ -16,8 +16,10 @@ const LayoutMain:React.FC<LayoutMainProps> = ({children}) => {
             <div>
                 <Navbar/>
             </div>
-            <div className="">
-                {children}
+            <div className="flex w-full justify-center bg-[#1A1A1A]">
+                <div className="w-[1030px] bg-[#252525]">
+                    {children}
+                </div>
             </div>
             <div>
                 <Footer />
