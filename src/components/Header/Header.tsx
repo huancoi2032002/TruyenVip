@@ -5,7 +5,7 @@ import { NotificationIcon, UserIcon } from "../../assets";
 
 
 type SinginProps = {
-    isActive: boolean
+    isActive?: boolean
 }
 
 const Header:React.FC<SinginProps> = ({isActive}) => {
